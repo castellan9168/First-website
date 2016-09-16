@@ -1,0 +1,34 @@
+{
+  "name": "strona_cukiernia",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [
+    "bootstrap",
+    "less",
+    "css",
+    "gulp",
+    "bower"
+  ],
+  "dependencies": {
+    "angular": "^1.4.x",
+    "angular-animate": "^1.x",
+    "angular-aside": "~1.2.0",
+    "angular-bootstrap": "^0.x",
+    "angular-cookies": "^1.x",
+    "angular-gettext": "~2.1.0",
+    "angular-media-queries": "^0.4.1",
+    "angular-resource": "^1.x",
+    "angular-route": "^1.x",
+    "angular-sanitize": "^1.x",
+    "angular-ui-router": "^0.x",
+    "angular-ui-scrollpoint": "^1.x",
+    "angular-ui-select": "^0.x",
+    "angular-moment": "^0.10.x",
+    "bootstrap": "^3.x",
+    "font-awesome": "^4.x",
+    "jquery": "^2.x"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0"
+  }
+}

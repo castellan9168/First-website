@@ -1,0 +1,178 @@
+
+@main-background-color: #bdc3c7;
+@section-background-color: #ffffff;
+@section-background-drop-shadow: 0px 0px 12px #888888;
+@font-color: #222222;
+@navigation-background-color: #222222;
+
+#icecreams_bg {
+	animation: icecreams-change-background 60s infinite; /* 60s to długość animacji, zmieniająć wartość zmieniamy jej długość*/
+	-webkit-animation: icecreams-change-background 60s infinite; /* Safari 4+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	-moz-animation:    icecreams-change-background 60s infinite; /* Fx 5+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	-o-animation:      icecreams-change-background 60s infinite; /* Opera 12+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: @font-color;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@keyframes icecreams-change-background {
+	0%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-01.jpg');}
+	33%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-01.jpg');}
+	34%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-02.jpg');}
+	70%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-02.jpg');}
+	71%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-03.jpg');}
+	99%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-03.jpg');}
+	100%	{background-image: url('../assets/img/icecreams/background/icecreams_bg-01.jpg');}
+}
+
+#donuts_bg {
+	animation: donuts-change-background 60s infinite; /* 60s to długość animacji, zmieniająć wartość zmieniamy jej długość*/
+	-webkit-animation: donuts-change-background 60s infinite; /* Safari 4+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	-moz-animation:    donuts-change-background 60s infinite; /* Fx 5+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	-o-animation:      donuts-change-background 60s infinite; /* Opera 12+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: @font-color;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@keyframes donuts-change-background {
+	/* to jest animacja dla tła strony */
+	0%		{background-image: url('../assets/img/donuts/background/donuts_bg-01.jpg');} /* zaczyna wyświetlać pierwszy obrazek */
+	33%		{background-image: url('../assets/img/donuts/background/donuts_bg-01.jpg');} /* kończy wyświetlać pierwszy obrazek */
+	34%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-02.jpg');} /* zaczyna wyświetlać drugi obrazek */
+	70%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-02.jpg');} /* kończy wyświetlać drugi obrazek */
+	71%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-03.jpg');} /* zaczyna wyświetlać trzeci obrazek */
+	99%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-03.jpg');} /* kończy wyświetlać trzeci obrazek */
+	100%	{background-image: url('../assets/img/icecreams/background/icecreams_bg-01.jpg');} /* wraca do pierwszego obrazka */
+}
+
+#crescents_bg {
+	animation: crescents-change-background 60s infinite; /* 60s to długość animacji, zmieniająć wartość zmieniamy jej długość*/
+	-webkit-animation: crescents-change-background 60s infinite; /* Safari 4+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	-moz-animation:    crescents-change-background 60s infinite; /* Fx 5+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	-o-animation:      crescents-change-background 60s infinite; /* Opera 12+; 60s to długość animacji, zmieniająć wartość zmieniamy jej długość */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: @font-color;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+@keyframes crescents-change-background {
+	/* to jest animacja dla tła strony */
+	0%		{background-image: url('../assets/img/crescents/background/crescents_bg-01.jpg');} /* zaczyna wyświetlać pierwszy obrazek */
+	33%		{background-image: url('../assets/img/crescents/background/crescents_bg-01.jpg');} /* kończy wyświetlać pierwszy obrazek */
+	34%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-02.jpg');} /* zaczyna wyświetlać drugi obrazek */
+	70%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-02.jpg');} /* kończy wyświetlać drugi obrazek */
+	71%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-03.jpg');} /* zaczyna wyświetlać trzeci obrazek */
+	99%		{background-image: url('../assets/img/icecreams/background/icecreams_bg-03.jpg');} /* kończy wyświetlać trzeci obrazek */
+	100%	{background-image: url('../assets/img/icecreams/background/icecreams_bg-01.jpg');} /* wraca do pierwszego obrazka */
+}
+
+footer {
+	background-color: @navigation-background-color;
+}
+
+nav {
+	background-color: @navigation-background-color;
+	font-family: Lato;
+}
+
+.navbar-nav {
+	font-family: LatoBold;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	> li {
+		float: none;
+		display: inline-block;
+	}
+}
+
+.footer_logo {
+	content: url("../assets/img/icecreams/footer/icecreams_footer_logo.png");
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.donuts-footer_logo {
+	content: url("../assets/img/donuts/footer/donuts_footer_logo.png");
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.crescents-footer_logo {
+	content: url("../assets/img/crescents/footer/crescents_footer_logo.png");
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.section-divider {
+	background-color: @section-background-color;
+	box-shadow: @section-background-drop-shadow;
+	width: 100%;
+	margin-bottom: 800px;
+	font-family: Lato;
+	font-size: 24px;
+	line-height: 1.5em;
+	padding-bottom: 36px;
+	padding-top: 24px;
+}
+
+.section-divider:first-of-type {
+	margin-top: 100vh;
+}
+
+.section-divider:last-of-type {
+	margin-bottom: 0px;
+}
+
+.scroll-to {
+	position: relative;
+	height: 0;
+	top: -74px;
+}
+
+.scroll-to .first {
+	top: -124px;
+}
+
+.arrow-down_container {
+	position: relative;
+	top: -180px;
+	background: transparent;
+	height: 50px;
+}
+
+.arrow-down_icon {
+	cursor: pointer;
+	color: #95a5a6;
+	width: 60px;
+	margin: auto;
+}
+
+.arrow-down_icon:hover {
+	color: #ffffff;
+}
